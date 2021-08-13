@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "AllowCopyPasting",
+  "version": "0.1",
+  "icons": {
+  },
+  "description": "Allow user to copy paste even when the website tries to block copy/pasting",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["index.js"]
+    }
+  ]
+}
